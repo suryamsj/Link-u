@@ -36,10 +36,10 @@ Link U adalah sebuah website untuk memperpendek link yang dibuat dengan mengguna
 
 ## :sparkles: Fitur ##
 
-:heavy_check_mark: Perpendek Link;<br>
-:heavy_check_mark: Kostum Link;<br>
-:heavy_check_mark: Dashboard;<br>
-:heavy_check_mark: Profil;<br>
+:heavy_check_mark: Perpendek Link;
+:heavy_check_mark: Kostum Link;
+:heavy_check_mark: Dashboard;
+:heavy_check_mark: Profil;
 
 ## :rocket: Teknologi ##
 
