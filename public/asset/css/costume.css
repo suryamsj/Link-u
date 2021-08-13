@@ -1,0 +1,250 @@
+/* Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700&family=Poppins:wght@400;500;600;700;800;900&display=swap');
+
+body {
+    font-family: 'Lato', sans-serif;
+}
+
+/* Blob */
+#blob {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+/* Navbar */
+nav {
+    background: none;
+}
+
+nav .nav-link {
+    color: #25396F;
+    font-size: 1.1rem;
+}
+
+nav .nav-link:hover {
+    color: #435EBE;
+}
+
+nav .navbar-toggler {
+    color: #25396F;
+    font-size: 1.8rem;
+}
+
+/* Header */
+header {
+    z-index: 1;
+    position: relative;
+}
+
+header h1 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    font-size: 3rem;
+}
+
+header p {
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    font-size: 1.5rem;
+}
+
+header img {
+    width: 80%;
+}
+
+/* Shortlink */
+section.shortlink {
+    background: #19274d;
+    position: relative;
+    text-align: center;
+}
+
+section.shortlink input {
+    width: 25rem;
+    height: 3rem;
+    border-radius: 10px;
+    border: none;
+    margin-bottom: 0.5rem;
+}
+
+section.shortlink button {
+    background: #435EBE;
+    color: #FFFFFF;
+    border: none;
+    padding: 12px;
+    width: 8rem;
+    border-radius: 5px;
+    margin-left: 0.2rem;
+    transition: all 0.5s ease-in-out;
+}
+
+section.shortlink button:hover {
+    background: #364B98;
+    transition: all 0.5s ease-in-out;
+}
+
+section.shortlink p {
+    color: #c0c0c0;
+    font-weight: 400;
+    margin-top: 0.5rem;
+}
+
+/* Section Fitur */
+section.feature {
+    text-align: center;
+}
+
+section.feature h1 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    margin-bottom: -0.4rem;
+    text-transform: uppercase;
+}
+
+section.feature p {
+    font-weight: 400;
+    color: #858585;
+}
+
+.kotak-fitur {
+    border: 2px solid #d8d8d8;
+    padding: 1rem;
+    transition: all 0.5s ease-in-out;
+}
+
+.kotak-fitur:hover {
+    box-shadow: 3px 3px 6px rgba(148, 148, 148, 0.1);
+    border-radius: 10px;
+    transition: all 0.5s ease-in-out;
+}
+
+.ikon-fitur {
+    font-size: 4rem;
+    border-radius: 100%;
+    color: #25396F;
+}
+
+/* Section Informasi */
+section.information {
+    background: #19274D;
+    color: #FFFFFF;
+    text-align: center;
+}
+
+.kotak-info h1 {
+    font-size: 1.5rem;
+    color: #ffffff;
+    margin-bottom: -0rem;
+}
+
+.kotak-info p {
+    font-size: 2rem;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+}
+
+.ikon-info {
+    font-size: 4rem;
+    margin-right: 0.3rem;
+}
+
+/* Section FAQ */
+
+/* Utilitis */
+.btn-daftar {
+    background: #435EBE;
+    color: #FFFFFF;
+    border-radius: 20px;
+    transition: 0.5s ease-in-out;
+}
+
+.btn-daftar:hover {
+    background: #364B98;
+    color: #FFFFFF;
+    transition: 0.5s ease-in-out;
+}
+
+.btn-login {
+    border: 2px solid #25396F;
+    color: #25396F;
+    border-radius: 20px;
+    transition: 0.5s ease-in-out;
+}
+
+.btn-login:hover {
+    background: #25396F;
+    color: #FFFFFF;
+    transition: 0.5s ease-in-out;
+}
+
+.btn-login:active,
+.btn-login:focus,
+.btn-daftar:active,
+.btn-daftar:focus,
+nav button.navbar-toggler:active,
+nav button.navbar-toggler:focus {
+    outline: none !important;
+    box-shadow: none !important;
+}
+
+/* Responsive */
+@media (max-width: 575.98px) {
+    section.shortlink input {
+        width: 18rem;
+    }
+
+    .kotak-fitur {
+        margin-bottom: 1rem;
+    }
+}
+
+@media (max-width: 767.98px) {
+    section.shortlink input {
+        width: 16rem;
+    }
+}
+
+@media (min-width: 991.98px) {
+    section.shortlink input {
+        width: 40rem;
+    }
+
+    .btn-daftar {
+        width: 12rem;
+        height: auto;
+    }
+
+    .btn-login {
+        width: 12rem;
+        height: auto;
+    }
+}
+
+@media (min-width: 1199.98px) {
+    header {
+        height: 95vh;
+    }
+
+    section.shortlink {
+        height: 23vh;
+    }
+
+    section.shortlink input {
+        width: 40rem;
+    }
+
+    .kotak-fitur {
+        min-height: 48vh;
+    }
+
+    .btn-daftar {
+        width: 12rem;
+        height: auto;
+    }
+
+    .btn-login {
+        width: 12rem;
+        height: auto;
+    }
+}
