@@ -1,27 +1,23 @@
 <div align="center" id="top"> 
-  <img src="./.github/app.gif" alt="Piano" />
+  <img src="./screenshot/screenshot.png" alt="Piano" />
 
   &#xa0;
-
-  <!-- <a href="https://piano.netlify.app">Demo</a> -->
 </div>
 
-<h1 align="center">Linku</h1>
+<h1 align="center">Link-u</h1>
 
 <p align="center">
-  <img alt="Github top language" src="https://img.shields.io/github/languages/top/suryamsj/Linku?color=56BEB8">
+  <img alt="Github top language" src="https://img.shields.io/github/languages/top/suryamsj/Link-u?color=56BEB8">
 
-  <img alt="Github language count" src="https://img.shields.io/github/languages/count/suryamsj/Linku?color=56BEB8">
+  <img alt="Github language count" src="https://img.shields.io/github/languages/count/suryamsj/Link-u?color=56BEB8">
 
-  <img alt="Repository size" src="https://img.shields.io/github/repo-size/suryamsj/Linku?color=56BEB8">
+  <img alt="Repository size" src="https://img.shields.io/github/repo-size/suryamsj/Link-u?color=56BEB8">
 
-  <img alt="License" src="https://img.shields.io/github/license/suryamsj/Linku?color=56BEB8">
+  <img alt="License" src="https://img.shields.io/github/license/suryamsj/Link-u?color=56BEB8">
 
-  <img alt="Github issues" src="https://img.shields.io/github/issues/suryamsj/Linku?color=56BEB8" />
+  <img alt="Github forks" src="https://img.shields.io/github/forks/suryamsj/Link-u?color=56BEB8" />
 
-  <img alt="Github forks" src="https://img.shields.io/github/forks/suryamsj/Linku?color=56BEB8" />
-
-  <img alt="Github stars" src="https://img.shields.io/github/stars/suryamsj/Linku?color=56BEB8" />
+  <img alt="Github stars" src="https://img.shields.io/github/stars/suryamsj/Link-u?color=56BEB8" />
 </p>
 
 <p align="center">
@@ -64,10 +60,10 @@ Sebelum memulai :checkered_flag:, pastikan kamu sudah menginstall [Git](https://
 
 ```bash
 # Clone this project
-$ git clone https://github.com/suryamsj/Linku
+$ git clone https://github.com/suryamsj/Link-u
 
 # Access
-$ cd Linku
+$ cd Link-u
 
 # Install dependencies
 $ composer install
